@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.coverforce.com/security
+probe: false
+url: https://www.coverforce.com/security
+certifications:
+- SOC 2
+controls:
+- security by design, zero trust architecture, and continuous security
+- AWS infrastructure and CI/CD platforms
+- industry-standard encryption algorithms; secrets managed via Ansible Vault, 1Password, and AWS-KMS
+- penetration testing performed periodically
+- intrusion detection system deployed for continuous monitoring
+compliance:
+- CCPA (per Privacy Policy)
+evidence:
+- source: https://www.coverforce.com/security
+  keywords: [zero trust, aws, encryption, penetration testing, continuous monitoring]
+- source: llms/coverforce-llms.txt
+  keywords: [soc 2 compliance, aws infrastructure, zero trust architecture]
+notes: >-
+  CoverForce publishes a /security page describing its security program but does not operate a
+  dedicated trust.coverforce.com portal. SOC 2 compliance is asserted in the provider's first-party
+  llms.txt; the security page itself does not name the certification. No responsible-disclosure or bug
+  bounty program is published.

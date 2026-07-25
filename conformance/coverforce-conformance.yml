@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source:
+- https://www.coverforce.com/security
+- https://www.coverforce.com/privacy-policy
+- llms/coverforce-llms.txt
+standards:
+- id: soc2
+  conforms: true
+  evidence: >-
+    CoverForce's llms.txt states "SOC 2 compliance"; the security page describes security-by-design,
+    zero trust, periodic penetration testing, and continuous monitoring consistent with a SOC 2 program.
+- id: ccpa
+  conforms: true
+  evidence: Privacy Policy documents CCPA compliance (California Consumer Privacy Act).
+- id: tls1.3
+  conforms: true
+  evidence: Live TLS probe of www.coverforce.com negotiated TLSv1.3 with HSTS (max-age 31536000).
+- id: acord
+  conforms: true
+  evidence: >-
+    Document AI reads and extracts structured data from ACORD forms, quote proposals, and policy
+    documents (per API and AI product pages), indicating support for the ACORD insurance data standard.
+- id: naics
+  conforms: true
+  evidence: >-
+    Platform maps NAICS codes to carrier-specific industry codes and supports 1,500+ Standard Industry
+    Codes and 800+ NCCI Codes for classification.
+- id: rest
+  conforms: true
+  evidence: Provider describes a standalone RESTful API with a unified JSON schema for submissions.
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or auth documentation confirms an OAuth2 flow; developer portal is gated.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI available to confirm application/problem+json error responses.

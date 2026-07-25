@@ -1,0 +1,75 @@
+# CoverForce
+
+> CoverForce is a commercial insurance distribution infrastructure platform headquartered in New York. It provides a unified API and white-label software that enables insurance agencies, agency networks, wholesalers, carriers, insurtechs, and developers to digitally submit, quote, compare, bind, pay, and issue commercial insurance policies across 40+ carriers through a single integration. CoverForce is not an insurance agency or broker — it is an independent technology platform that strengthens (not disintermediates) independent agents. Founded in 2021 by Cyrus Karai (CEO), Behram Dinshaw (Chairman, former EVP at Travelers), and Kaivan Wadia (CTO, former Amazon engineer). Backed by Insight Partners, Nyca Partners, and QED Investors with $18M+ in funding. Named to the CB Insights Insurtech 50 in 2025. A product of the University of Pennsylvania Innovation Fund.
+
+CoverForce offers three core product categories that can be used independently or together: (1) white-label software platforms for agents, networks, wholesalers, and carriers, (2) a standalone RESTful API for developers and insurtechs, and (3) AI-powered capabilities for document reading, carrier integration, and underwriting automation. The platform supports Workers' Compensation, General Liability, Business Owners Policy (BOP), Cyber, Commercial Auto, Inland Marine, Management Liability (D&O, EPLI, Fiduciary), Product Liability, and Miscellaneous Professional Liability (MPL) across all 50 US states.
+
+## Platform Products
+
+- [Agent Platform](https://www.coverforce.com/products/agent-platform): White-label agency platform for submitting, quoting, comparing, and binding commercial insurance policies across multiple carriers. Features include unified multi-carrier applications, AI-powered document ingestion, instant carrier quotes, one-click bind and pay, certificate of insurance generation, and integration with agency management systems like Nexsure, AMS360 and Applied Epic.
+- [Network Platform](https://www.coverforce.com/products/network-platform): Unified quoting, performance tracking, and white-label digital storefronts for insurance agency networks. Enables network leadership to monitor placement activity across member agencies. Used by ISU Insurance Agency Network (240+ members, ~$8B in written P&C premiums).
+- [Wholesaler Platform](https://www.coverforce.com/products/wholesaler-platform): Digital submission and distribution platform for wholesale insurance brokers. Manage broker codes, delegate access to retail agencies, and streamline distribution with white-label storefronts and reporting. Used by Amwins, Jencap, RT Specialty, Brooks Insurance (Venbrook Group), and First Connect.
+- [Carrier Platform](https://www.coverforce.com/products/carrier-platform): Digital distribution platform for insurance carriers and MGAs. Provides API distribution, data insights, and multi-channel access to appointed distribution partners. Includes carrier API development consultancy for carriers without existing APIs.
+
+## API
+
+- [API Overview](https://www.coverforce.com/api): Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. 40+ products integrated, 100K+ processed applications, 99.9% uptime. Key endpoints include /Applications (create and submit in unified JSON schema), /Quotes (retrieve multi-carrier quotes in consistent format), /Bind (request bindable terms directly via API), /Document AI (extract and populate application data from uploaded documents), /Renewals (start renewals with pre-filled data), /Appetite (query carrier appetite and eligibility dynamically), /Status (real-time application and quote status), /Analytics (usage metrics, bind ratios, performance reports), and /Documents (request policy documents for a given application and quote).
+- [API Access Request](https://www.coverforce.com/api-access): Request access to CoverForce's API documentation and developer sandbox.
+- [Developer Portal](https://coverforce.stoplight.io/): Full API reference documentation hosted on Stoplight, including endpoint specifications, authentication details, and code examples.
+- [2026 Carrier API Index](https://www.coverforce.com/carriers/api-index): Comprehensive index of all carrier API integrations available through CoverForce, organized by carrier and policy type.
+
+## AI Capabilities
+
+- [AI Overview](https://www.coverforce.com/ai): CoverForce AI capabilities built in partnership with leading AI providers. Five core capabilities: (1) AI-Powered Document Reader — reads and extracts structured data from ACORD forms, quote proposals, policy docs, and custom intake forms with 95%+ accuracy, populating applications in seconds. (2) AI NAICS-to-Carrier Code Mapping — dynamically maps between NAICS codes and carrier-specific industry codes to improve classification accuracy. (3) Carrier API Integration Acceleration — uses AI to translate between carrier-specific APIs and the CoverForce unified API model, increasing integration speed. (4) Smart Underwriting Question Consolidation — identifies overlapping underwriting questions across carriers and merges them into unified smart questions for faster multi-carrier quoting. (5) Email-Based Submissions (upcoming) — agents email in submissions and AI extracts details, creates the application, and routes to the correct market.
+
+## Carriers and Coverage
+
+- [Appetite Guide](https://www.coverforce.com/carriers/appetite-guide): Real-time carrier appetite checker by policy type, US state, and industry classification.
+
+Integrated carriers and MGAs include: Travelers, Liberty Mutual, Chubb, AmTrust, The Hartford, EMPLOYERS, biBERK (Berkshire Hathaway), Hiscox, CompWest, Accident Fund, Great American Insurance Group, CNA, and others — with new carriers added regularly. Coverage types supported: Workers' Compensation, General Liability, Business Owners Policy (BOP), Cyber Insurance, Commercial Auto, Inland Marine, Management Liability (D&O, EPLI, Fiduciary), Product Liability, and Miscellaneous Professional Liability (MPL).
+
+## Customers and Partners
+
+- [Customers](https://www.coverforce.com/customers): Case studies and customer outcomes. CoverForce serves brokers and agencies, agency networks (ISU Insurance Agency Network), wholesale brokerages (Amwins, Jencap, RT Specialty, Brooks Insurance), insurtechs and developers, banks, PEOs, and agency management systems. Named partners include Skyscraper Insurance, Voldico, Agentero, and others.
+- [Blog and News](https://www.coverforce.com/blog): Press releases, partnership announcements, and industry insights including the CB Insights Insurtech 50 recognition (2025), the $13M Series A led by Insight Partners (2024), and the $5M seed round (2023).
+
+## Company
+
+- [About Us](https://www.coverforce.com/company/about-us): CoverForce's mission, values, and leadership team. Team includes veterans from The Hartford, Google, Chubb, Amazon, Travelers, Allstate, and McKinsey.
+- [Careers](https://www.coverforce.com/careers): Open positions at CoverForce.
+- [Contact Us](https://www.coverforce.com/contact-us): Reach the CoverForce team. Email: sales@coverforce.com. Phone: +1 (917) 905-6508. Address: 485 Madison Ave, Ste. 1702, New York, NY 10022.
+
+## Security and Compliance
+
+- [Security](https://www.coverforce.com/security): AWS infrastructure, zero trust architecture, SOC 2 compliance, and continuous monitoring for insurance data protection.
+- [Privacy Policy](https://www.coverforce.com/privacy-policy): Data collection, usage, and CCPA compliance.
+- [Terms of Service](https://www.coverforce.com/terms-of-service): Platform usage terms.
+
+## Help and Support
+
+- [Help Center](https://helpcenter.coverforce.com/): End-user help documentation including guides on coverage types such as cyber insurance, workers' compensation, general liability, and more.
+- [Agent Login](https://webapp.coverforce.com/login): Existing agent portal access.
+
+## Key Facts
+
+- Company name: CoverForce, Inc.
+- Founded: 2021
+- Headquarters: 485 Madison Ave, Ste. 1702, New York, NY 10022
+- Founders: Cyrus Karai (CEO), Behram Dinshaw (Chairman, former EVP Travelers), Kaivan Wadia (CTO, former Amazon)
+- Funding: $18M+ total ($5M Seed 2023, $13M Series A 2024 led by Insight Partners)
+- Investors: Insight Partners, Nyca Partners, QED Investors, Microsoft, Uber
+- Board: Sophie Beshar (VP, Insight Partners)
+- Awards: CB Insights Insurtech 50 (2025), University of Pennsylvania Innovation Fund
+- Business relationships: 260+ since 2021 including Amazon Web Services, Generali, Sun Life
+- Carriers integrated: 40+ including Travelers, Liberty Mutual, Chubb, AmTrust, The Hartford, EMPLOYERS, biBERK, Hiscox, CompWest, Accident Fund, Great American
+- Products integrated via API: 40+
+- Processed applications: 200,000+
+- Agencies supported: 15,000+
+- Monthly hours saved: 21,000+
+- Gross quoted premium: $500M+
+- API uptime: 99.9%
+- Coverage types: Workers' Comp, General Liability, BOP, Cyber, Commercial Auto, Inland Marine, Management Liability, Product Liability, MPL
+- Industry codes supported: 1,500+ Standard Industry Codes, 800+ NCCI Codes
+- AMS integrations: Nexsure, AMS360, Applied Epic, Hawksoft, EZLynx
+- Website: https://www.coverforce.com
+- LinkedIn: https://www.linkedin.com/company/coverforceinc

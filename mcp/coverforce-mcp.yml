@@ -1,0 +1,43 @@
+generated: '2026-07-18'
+method: derived
+status: candidate
+source:
+- https://www.coverforce.com/api
+- llms/coverforce-llms.txt
+notes: >-
+  No official hosted/remote CoverForce MCP server was found. This is a CANDIDATE tool surface derived
+  from the endpoint families documented on the public API overview and llms.txt. The full API reference
+  is hosted on Stoplight behind an access request, so exact operationIds, parameters, and the API base
+  URL are not publicly available. Tools below mirror the documented resource families only.
+server:
+  name: coverforce
+  transport: http
+  url: null
+tools:
+- name: create_application
+  description: Create and submit a commercial insurance application in CoverForce's unified JSON schema.
+  source_operation: 'docs: /Applications'
+- name: get_quotes
+  description: Retrieve multi-carrier quotes for an application in a consistent, comparable format.
+  source_operation: 'docs: /Quotes'
+- name: bind_policy
+  description: Request bindable terms and bind a selected quote directly via the API.
+  source_operation: 'docs: /Bind'
+- name: extract_document
+  description: Use Document AI to extract and populate application data from an uploaded document (ACORD forms, proposals, policy docs).
+  source_operation: 'docs: /Document AI'
+- name: start_renewal
+  description: Start a renewal with prior application data pre-filled.
+  source_operation: 'docs: /Renewals'
+- name: check_appetite
+  description: Query carrier appetite and eligibility rules dynamically by policy type, state, and industry class.
+  source_operation: 'docs: /Appetite'
+- name: get_status
+  description: Get real-time status of an application or quote.
+  source_operation: 'docs: /Status'
+- name: get_analytics
+  description: Pull usage metrics, bind ratios, and performance reports.
+  source_operation: 'docs: /Analytics'
+- name: get_documents
+  description: Request policy documents for a given application and quote.
+  source_operation: 'docs: /Documents'

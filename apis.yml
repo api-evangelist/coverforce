@@ -1,8 +1,16 @@
 aid: coverforce
 name: Coverforce
-description: Coverforce is a company surfaced as a portfolio company of insight-partners, qed-investors
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  CoverForce is a commercial insurance distribution infrastructure platform headquartered in New York
+  City. It provides a unified RESTful API and white-label software that let insurance agencies, agency
+  networks, wholesalers, carriers, insurtechs, and developers digitally submit, quote, compare, bind,
+  pay, and issue commercial insurance policies across 40+ carriers and MGAs through a single
+  integration. Coverage spans Workers' Compensation, General Liability, Business Owners Policy (BOP),
+  Cyber, Commercial Auto, Inland Marine, Management Liability (D&O, EPLI, Fiduciary), Product Liability,
+  and Miscellaneous Professional Liability across all 50 US states. The API exposes Applications,
+  Quotes, Bind, Document AI, Renewals, Appetite, Status, Analytics, and Documents endpoints, backed by
+  AI capabilities for document reading and carrier-code mapping. Founded in 2021 and backed by Insight
+  Partners, Nyca Partners, and QED Investors; named to the CB Insights Insurtech 50 in 2025.
 url: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,17 +19,96 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/62fb0fee9797e7c02c446c87/63f67f2011a086a2ce4b6077_CoverForce%20Primary%20Icon%20256x256.png
 tags:
 - Company
-apis: []
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Insurance Distribution
+- API
+- Embedded Insurance
+- Underwriting
+- Document AI
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: CoverForce API
+  description: >-
+    Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration.
+    Documented endpoint families include Applications (create and submit in a unified JSON schema),
+    Quotes (retrieve comparable multi-carrier quotes), Bind (request bindable terms), Document AI
+    (extract and populate application data from uploaded documents), Renewals, Appetite (query carrier
+    eligibility dynamically), Status (real-time application/quote status), Analytics, and Documents.
+    Access to the developer portal and sandbox is granted on request.
+  humanURL: https://www.coverforce.com/api
+  properties:
+  - type: Documentation
+    url: https://coverforce.stoplight.io/
+  - type: APIReference
+    url: https://coverforce.stoplight.io/
+  - type: LLMsTxt
+    url: llms/coverforce-llms.txt
+  - type: MCPServer
+    url: mcp/coverforce-mcp.yml
 common:
 - type: Website
   url: https://www.coverforce.com/
+- type: DeveloperPortal
+  url: https://coverforce.stoplight.io/
+- type: Documentation
+  url: https://coverforce.stoplight.io/
+- type: APIReference
+  url: https://coverforce.stoplight.io/
+- type: SignUp
+  url: https://www.coverforce.com/api-access
+- type: Login
+  url: https://webapp.coverforce.com/login
+- type: Support
+  url: https://helpcenter.coverforce.com/
+- type: HelpCenter
+  url: https://helpcenter.coverforce.com/
+- type: Blog
+  url: https://www.coverforce.com/blog
+- type: PrivacyPolicy
+  url: https://www.coverforce.com/privacy-policy
+- type: TermsOfService
+  url: https://www.coverforce.com/terms-of-service
+- type: LinkedIn
+  url: https://www.linkedin.com/company/coverforceinc
+- type: LLMsTxt
+  url: llms/coverforce-llms.txt
+- type: WellKnown
+  url: well-known/coverforce-well-known.yml
+- type: DomainSecurity
+  url: security/coverforce-domain-security.yml
+- type: Conformance
+  url: conformance/coverforce-conformance.yml
+- type: Compliance
+  url: https://www.coverforce.com/security
+- type: TrustCenter
+  url: security/coverforce-trust-center.yml
+- type: MCPServer
+  url: mcp/coverforce-mcp.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

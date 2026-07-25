@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.coverforce.com/.well-known/*
+host: https://www.coverforce.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on the primary web host. The developer API
+  reference is hosted on Stoplight (https://coverforce.stoplight.io/) behind an access request, and no
+  public API base host (e.g. api.coverforce.com) resolves for further probing.
