@@ -4,8 +4,7 @@ status: candidate
 source:
 - https://www.coverforce.com/api
 - llms/coverforce-llms.txt
-notes: >-
-  No official hosted/remote CoverForce MCP server was found. This is a CANDIDATE tool surface derived
+notes: No official hosted/remote CoverForce MCP server was found. This is a CANDIDATE tool surface derived
   from the endpoint families documented on the public API overview and llms.txt. The full API reference
   is hosted on Stoplight behind an access request, so exact operationIds, parameters, and the API base
   URL are not publicly available. Tools below mirror the documented resource families only.
@@ -24,13 +23,15 @@ tools:
   description: Request bindable terms and bind a selected quote directly via the API.
   source_operation: 'docs: /Bind'
 - name: extract_document
-  description: Use Document AI to extract and populate application data from an uploaded document (ACORD forms, proposals, policy docs).
+  description: Use Document AI to extract and populate application data from an uploaded document (ACORD
+    forms, proposals, policy docs).
   source_operation: 'docs: /Document AI'
 - name: start_renewal
   description: Start a renewal with prior application data pre-filled.
   source_operation: 'docs: /Renewals'
 - name: check_appetite
-  description: Query carrier appetite and eligibility rules dynamically by policy type, state, and industry class.
+  description: Query carrier appetite and eligibility rules dynamically by policy type, state, and industry
+    class.
   source_operation: 'docs: /Appetite'
 - name: get_status
   description: Get real-time status of an application or quote.
@@ -41,3 +42,9 @@ tools:
 - name: get_documents
   description: Request policy documents for a given application and quote.
   source_operation: 'docs: /Documents'
+deployment:
+  mode: none
+  verified: derived
+  tools: 9
+  checked: '2026-08-12'
+  source: catalog MCP census
