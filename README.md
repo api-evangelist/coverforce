@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Coverforce is a company surfaced as a portfolio company of insight-partners, qed-investors and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+CoverForce is a commercial insurance distribution infrastructure platform headquartered in New York City. It provides a unified RESTful API and white-label software that let insurance agencies, agency networks, wholesalers, carriers, insurtechs, and developers digitally submit, quote, compare, bind, pay, and issue commercial insurance policies across 40+ carriers and MGAs through a single integration. Coverage spans Workers' Compensation, General Liability, Business Owners Policy (BOP), Cyber, Commercial Auto, Inland Marine, Management Liability (D&O, EPLI, Fiduciary), Product Liability, and Miscellaneous Professional Liability across all 50 US states. The API exposes Applications, Quotes, Bind, Document AI, Renewals, Appetite, Status, Analytics, and Documents endpoints, backed by AI capabilities for document reading and carrier-code mapping. Founded in 2021 and backed by Insight Partners, Nyca Partners, and QED Investors; named to the CB Insights Insurtech 50 in 2025.
 
-Backed by: insight-partners, qed-investors — https://www.coverforce.com/
+**Areas:** Company · Insurance · Insurtech · Commercial Insurance · Insurance Distribution · Embedded Insurance · Underwriting · Document AI
+
+## Coverforce on APIs.io
+
+Everything profiled for Coverforce is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coverforce/](https://apis.io/providers/coverforce/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [CoverForce API](https://apis.io/apis/coverforce/coverforce-api/) — Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [coverforce](https://apis.io/servers/coverforce/coverforce/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coverforce Domain Security](https://apis.io/security/coverforce/coverforce-domain-security/)
+- [Coverforce Trust Center](https://apis.io/security/coverforce/coverforce-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.coverforce.com/)
+- [Documentation](https://coverforce.stoplight.io/)
+- [API reference](https://coverforce.stoplight.io/)
+- [Sign up](https://www.coverforce.com/api-access)
+- [Support](https://helpcenter.coverforce.com/)
+- [Blog](https://www.coverforce.com/blog)
+- [Compliance](https://www.coverforce.com/security)
+- [Terms of service](https://www.coverforce.com/terms-of-service)
+- [Privacy policy](https://www.coverforce.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 27.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 28.1** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coverforce/](https://apis.io/providers/coverforce/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Coverforce: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coverforce/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
